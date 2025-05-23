@@ -1,10 +1,10 @@
-const js = require("@eslint/js");
-const globals = require("globals");
-const tsPlugin = require("@typescript-eslint/eslint-plugin");
-const tsParser = require("@typescript-eslint/parser");
-const { defineConfig } = require("eslint/config");
+import js from "@eslint/js";
+import globals from "globals";
+import tsPlugin from "@typescript-eslint/eslint-plugin";
+import tsParser from "@typescript-eslint/parser";
+import { defineConfig } from "eslint/config";
 
-module.exports = defineConfig([
+export default defineConfig([
   {
     files: ["**/*.{js,mjs,cjs}"],
     languageOptions: {
