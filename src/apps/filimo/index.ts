@@ -1,5 +1,5 @@
 // We can create a global features.json to handle this
-// and handle this logic by vite.config
+// and handle this logic by config
 
 const filimoFeatures = {
   cinema: true,
